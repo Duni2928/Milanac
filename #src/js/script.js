@@ -36,7 +36,7 @@ if(document.querySelector(".news__filter")) {
     newsFilterHeader.classList.toggle("active");
   })
   const newsFilterItems = document.querySelector(".news__filter__items");
-  if (document.querySelector(".filterHasSubnavs")) {
+  if (document.querySelector(".filter__has__subnavs")) {
     let filterHasSubnavs = document.querySelectorAll(".filter__has__subnavs");
     filterHasSubnavs.forEach(item => {
       item.addEventListener("click", () => {
